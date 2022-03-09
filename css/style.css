@@ -1,0 +1,1034 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+h1, h2, h3,h4,h5,p {
+    line-height: 0.8;
+}
+
+
+
+/*================  Navbar css part goes here  ===============*/
+
+
+
+
+.navbar {
+   padding-top: 0; 
+   padding-bottom: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index:9999999;
+}
+
+.navbar-brand {
+	padding-top: 0; 
+    padding-bottom: 0; 
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 125px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #c7b299;
+}
+
+
+
+
+/*================  Banner part goes here css part goes here  ===============*/
+
+#banner {
+    background: url(../images/Banner.jpg);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+#banner::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.70);
+}
+
+.banner-conten-slider{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xtra-1 {
+    z-index: 99999;
+    position: relative;
+}
+
+.banner-item h3 {
+    color: #ffff;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15px;
+}
+.banner-item h1 {
+    color: #ffff;
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:19px ;
+    
+}
+.banner-item p {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-bottom: 48px;
+}
+.banner-item a {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    background-color: #998675;
+    padding:20px 38px ;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-bottom: 3px solid #736357;
+}
+.banner-item {
+    padding-bottom: 20px;
+}
+
+/*================  service css part goes here  ===============*/
+#service {
+    padding-top: 80px;
+    padding-bottom: 112px;
+}
+.service-item i {
+    font-size: 46px;
+    color: #555555;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.service-item {
+    margin:0 10px ;
+}
+.service-item h2 {
+    color: #555555;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.service-item p {
+    font-size: 14px;
+    color: #555555;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    line-height:24px;
+    position: relative;
+}
+
+.service-item p::after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    bottom:-30px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.service-item:hover i {
+    color: #c7b299;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+} 
+.service-item:hover h2 {
+    color: #c7b299;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+} 
+.service-item:hover p::after {
+    background-color: #c7b299;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+} 
+.service-item {
+    padding-bottom: 20px;
+}
+/*================  mockup css part goes here  ===============*/
+
+#mockup {
+    background-color:#fbfaf8 ;
+    padding-top: 83px;
+}
+
+.headline h3{
+    color: #555555;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15px;
+}
+.headline p{
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+/*================  service css part goes here  ===============*/
+
+#purchase{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, #211b19 ,#4e3427);
+}
+
+.purchase-left h3 {
+    color: #ffff;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 4px;
+
+}
+.purchase-left span {
+    color: #c7b299;
+}
+.purchase-left p {
+    color: #615855;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.purchase-right a {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    background-color: #998675;
+    padding:20px 38px ;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-bottom: 3px solid #736357;
+}
+.purchase-right {
+    margin-top: 10px;
+}
+/*================  project css part goes here  ===============*/
+#project {
+    padding-top: 78px;
+}
+
+
+.project-item {
+  margin-bottom: 30px;
+}
+.buttons .btn {
+    color: #8c8c8c;
+    font-size:14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border: 1px solid #ebebeb ;
+    margin: 3px ;
+}
+
+.project-img {
+    position: relative;
+}
+
+.project-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.705);
+    opacity: 0;
+}
+
+.buttons {
+    padding-bottom: 38px;
+}
+
+
+
+
+
+.project-img i {
+    color: #fff;
+    font-size: 23px;
+}
+
+.project-info {
+    background-color: #fbfaf8;
+    padding: 30px 30px;
+   
+}
+.icons i {
+    color: #fff;
+    font-size: 27px;
+    margin: 13px;
+}
+
+.project-info h3 {
+    color: #c7b299;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5px;
+}
+.project-info p {
+    
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+	
+	margin-bottom: 0rem;
+}
+
+.project-info {
+    position:relative ;
+}
+
+.project-info::after {
+    position: absolute;
+    content: '';
+    top:-10px;
+    left: 20px;
+    background-color: #f9f9f7;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.buttons .btn:hover {
+    background-color:#998675 ; 
+    color: #ffff;
+    transition: all linear .3s;
+     -webkit-transition: all linear .3s;
+     -moz-transition: all linear .3s;
+     -ms-transition: all linear .3s;
+     -o-transition: all linear .3s;
+ }
+.project-item:hover .project-img-overlay {
+    opacity: 1;
+    transition: all linear .3s;
+    
+}
+.project-item:hover .project-info {
+    background-color: #362f2d;
+    transition: all linear .3s;
+    
+}
+.project-item:hover .project-info::after{
+    background-color: #362f2d;
+    transition: all linear .3s;
+    
+}
+
+.btn-check:focus + .btn, .btn:focus {
+
+ box-shadow: 0 0 0 .0rem ;
+}
+
+.buttons .btn:hover{
+    background-color: #998675;
+}
+
+.mixitup-control-active {
+    background-color: #998675;
+    color: #ffff !important;
+}
+
+.view-btn a{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    background-color: #998675;
+    padding:20px 38px ;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-bottom: 3px solid #736357;
+}
+.view-btn {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+/*================  video css part goes here  ===============*/
+
+#video {
+    background: url(../images/videoimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 210px;
+    padding-bottom: 254px;
+    position: relative;
+
+}
+
+#video::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.50);
+}
+
+.video {
+    position: relative;
+    z-index: 99;
+}
+.video::after {
+    position: absolute;
+    content: '';
+    width: ;
+}
+
+.video h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    padding-top: 50px;
+
+}
+.video p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    padding-top: 10px;
+    padding: 10px;
+
+}
+.video i {
+    font-size: 80px;
+    color: #fff;
+    position: relative;
+}
+.video i::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0,0.2);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.video-item {
+    padding-top: 6px;
+}
+
+
+
+/*================  mobile css part goes here  ===============*/
+
+#mobile{
+    padding-top: 80px;
+}
+
+.mobile-text {
+    padding-top: 118px;
+}
+
+.mobile-text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+     
+}
+
+
+
+.mobile-text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.mobile-feat-icon i{
+    width: 21px;
+    height: 21px;
+    background-color: #c7b299;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    line-height: 21px;
+    text-align: center;
+    margin-right: 30px;
+}
+.mobile-feat-icon {
+    padding-left: 50px;
+}
+
+
+/*================  conter css part goes here  ===============*/
+
+
+#counter {
+    background-image: linear-gradient(to right, #211b19 , #4e3427);
+    padding-top: 68px;
+    padding-bottom: 70px;
+
+}
+
+
+ 
+.counter-item h3{
+    font-size: 48px;
+    font-weight: 300;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.counter-item p{ 
+    font-size: 14px;
+    font-weight: 300;
+    color: #c7b299;
+    font-family: 'Montserrat', sans-serif;  
+    position: relative;  
+    padding-bottom: 20px;
+    
+}
+.counter-item p::after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+/*================  Blogs  css part goes here  ===============*/
+
+#blogs {
+    padding-bottom: 140px;
+}
+.blog-img {
+    position: relative;
+}
+.blog-img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.705);
+    opacity: 0;
+ 
+}
+
+.date {
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top:20px;
+    left:20px ;
+}
+
+.day{
+    width: 50px;
+    height: 35px;
+    background-color: #363636;
+    border-top-left-radius:3px ;
+    border-top-right-radius:3px ;
+}
+
+.day h3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+  
+}
+
+.month {
+    width:50px;
+    height:25px;
+    background-color: #252525 ;
+    border-bottom-left-radius:3px ;
+    border-bottom-right-radius:3px ;
+}
+
+.month p {
+    color: #ffff;
+    background-color: #252525;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;   
+}
+
+.blog-text h3 {
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.blog-text p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 20px;
+
+}
+.read a {
+    color: #c7b299;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+
+.headline-blog {
+    padding-top: 80px;
+}
+.blog-text  {
+    padding: 30px;
+    border: 1px solid #f8f8f8;
+    border-top: 0;
+}
+
+.read {
+    position: relative;
+}
+
+.read i {
+    position: absolute;
+    font-size: 15px;
+    top:8px;
+    left: 100px;
+    color:#c7b299 
+
+}
+
+.blog-item:hover .blog-img-overlay {
+    opacity: 1;
+    background-color: rgba(17, 17, 17, 0.70);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.blog-item:hover .day{
+    background-color: #c7b299;
+    transition: all linear .3s;
+}
+.blog-item:hover .day h3{
+    color: #fff;
+    transition: all linear .3s;
+}
+.blog-item:hover .month{
+    background-color: #a48d72!important;
+    transition: all linear .3s;
+}
+.blog-item:hover .blog-text{
+    background-color: #362f2d;
+    transition: all linear .3s;
+}
+
+.blog-item:hover h3{
+   color: #c7b299;
+   transition: all linear .3s;
+}
+.blog-item:hover p{
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.blog-item:hover .blog-text{
+    border: 1px solid #362f2d;
+    transition: all linear .3s;
+
+}
+
+
+.slick-center .blog-item .blog-img-overlay {
+    opacity: 1;
+    background-color: rgba(17, 17, 17, 0.70);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.slick-center  .blog-item  .day{
+    background-color: #c7b299;
+    transition: all linear .3s;
+}
+.slick-center .blog-item .day h3{
+    color: #fff;
+    transition: all linear .3s;
+}
+.slick-center .blog-item .month{
+    background-color: #a48d72!important;
+    transition: all linear .3s;
+}
+.slick-center .blog-item .blog-text{
+    background-color: #362f2d;
+    transition: all linear .3s;
+}
+
+.slick-center .blog-item h3{
+   color: #c7b299;
+   transition: all linear .3s;
+}
+.slick-center .blog-item  p{
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.slick-center  .blog-item .blog-text{
+    border: 1px solid #362f2d;
+    transition: all linear .3s;
+
+}
+
+.blog-item {
+    margin: 0 12px;
+}
+
+
+
+/*================  Brand css part goes here  ===============*/
+#brand {
+    background: url(../images/brand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 140px;
+    padding-bottom: 140px;    
+    position: relative;
+}
+
+#brand::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.705);
+}
+
+.brand-main {
+    position: relative;
+    z-index: 99;
+
+}
+
+.slick-slide img {
+    display: inline-block; 
+}
+
+
+
+/*================  footer css part goes here  ===============*/
+
+#footer {
+    padding-top:82px;
+    padding-bottom:82px;
+    background-color: #191919;
+}
+
+.footer-item p {
+    color: #555555;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-item .xtra1 {
+    padding-top: 30px;
+    padding-bottom:16px;
+}
+.footer-item .read {
+    position: relative;
+}
+
+.footer-item .read i {
+    font-size: 15px !important;
+    position: absolute;
+    top: 8px;
+    left: 86px;
+    color:#d1d1d1 ;
+}
+
+.footer-item .read a {
+    color: #d1d1d1;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+
+.footer-post h3 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 28px;
+    text-transform: capitalize;
+}
+.post-item {
+    padding-top: 22px;
+}
+
+.footer-post P {
+   padding-right: 20px;
+}
+
+.footer-post span {
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.post-item {
+    border-bottom: 1px solid #252525 ;
+    padding-top: 18px;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-item:hover span {
+    color:#fff;
+    transform: translate(.3s all linear);
+    -webkit-transform: translate(.3s all linear);
+    -moz-transform: translate(.3s all linear);
+    -ms-transform: translate(.3s all linear);
+    -o-transform: translate(.3s all linear);
+}
+.post-item:hover p {
+    color: #c7b299;
+    transform: translate(.3s all linear);
+    -webkit-transform: translate(.3s all linear);
+    -moz-transform: translate(.3s all linear);
+    -ms-transform: translate(.3s all linear);
+    -o-transform: translate(.3s all linear);
+}
+
+.post-item .xtra-2 span {
+    color: #00bff3;
+    font-size: 14px;
+}
+.post-item .xtra-3 span {
+    color: #00bff3;
+    font-size: 14px;
+}
+.post-item .xtra-4 span {
+    color: #959595;
+    font-size: 14px;
+}
+
+.dribble-img {
+    margin: 5px 5px;
+}
+
+.xtra-5 {
+    padding-top: 16px;
+    
+}
+/*================  copyright css part goes here  ===============*/
+#copyright {
+    background-color: #111111;
+    padding-top: 45px;
+    padding-bottom: 52px;
+}
+
+.copyright-left p {
+    color: #555555;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.copyright-left span {
+    color: #959595;
+}
+
+.copyright-left a {
+    padding-left:26px;
+    color: #555555;
+    position:relative;
+}
+
+.copyright-left a::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 13px;
+    background-color: #252525;
+    top:4px;
+    left:12px;
+
+}
+.copyright-left .xtra-6 {
+
+    color: #c7b299;
+}
+
+.copyright-right p{
+    color: #555555;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.copyright-right a{
+    color: #959595;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+    margin-right: 24px;
+    
+}
+
+
+
+.copyright-right .xtra-6{
+    color: #555555;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+}
+.copyright-right .xtra-7{
+position: relative;
+}
+.copyright-right .xtra-7::after{
+position: absolute;
+content: '';
+width: 1px;
+height: 13px;
+background-color: #252525;
+right: -17px;
+top: 4px;
+}
+.copyright-right span{
+    margin-right: 5px;
+}
+/*================  Navbar css part goes here  ===============*/
+
+/*================  Navbar css part goes here  ===============*/
+
+/*================  Navbar css part goes here  ===============*/
+
+/*================  Navbar css part goes here  ===============*/
+/*================  Navbar css part goes here  ===============*/
+/*================  Navbar css part goes here  ===============*/
